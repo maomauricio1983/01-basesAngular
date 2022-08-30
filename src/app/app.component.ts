@@ -9,6 +9,7 @@ export class AppComponent {
 
   public title: string = 'bases';
   numero: number = 10;
+  base : number = 5;
 
   sumar() {
     this.numero += 1;
